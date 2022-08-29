@@ -44,5 +44,5 @@ func Execute() {
 }
 
 func init() {
-	rootCmd.PersistentFlags().StringP("assume-role", "a", "", "Role to assume before running any functions")
+	rootCmd.PersistentFlags().StringP("assume-role", "a", "", "Role to assume before running any function")
 }
